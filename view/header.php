@@ -1,15 +1,17 @@
-<?php if (!defined("IN_WALLET")) { die("Auth Error!"); } ?>
-<!DOCTYPE HTML>
+<?php if (!defined("IN_WALLET")) { die("Auth Error!"); }
 
+
+ ?>
+<!DOCTYPE HTML>
 <html>
     <head>
-        
+	<link rel="canonical" href="https://iop.notasdovitor.top" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        
+        <meta name="description" content="Internet of People Web Wallet">
+	<meta property="og:title" content="IOP Wallet" />
+	<meta property="og:type" content="website" />
         <!-- Bootstrap include stuff -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +23,10 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- End Bootstrap include stuff-->
         <title><?=$fullname?> Wallet</title>
-        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="shortcut icon" href="https://iop.global/wp-content/uploads/2017/10/cropped-iop-logo-bigger-192x192.png">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
-    
-    
     <body>
 
         <nav class="navbar navbar-default" role="navigation">

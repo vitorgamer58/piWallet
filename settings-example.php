@@ -21,4 +21,7 @@ $donation_address = ""; //Donation Address
 
 $reserve = "0"; //This fee acts as a reserve. The users balance will display as the balance in the daemon minus the reserve. We don't reccomend setting this more than the Fee the daemon charges.
 
+//Recaptcha
+$secret = "6LcUVJAUAAAAAFFHhigG2zt7BjAke6_pwEM7aIOI";
+
 ?>
